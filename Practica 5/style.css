@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    font-family: 'Poppins', sans-serif; /* Fuente si ya la importaste */
+    background-color: #f0f0f0; /* Opcional, fondo general */
+}
+
+
+form {
+    width: auto;
+    height: auto;
+    padding: 50px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form input {
+    width: 100%;
+    padding: 5px 5px;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Cuando el input está enfocado */
+form input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.337);
+}
+
+form input[type="submit"] {
+    width: auto;
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4e565e;
+}

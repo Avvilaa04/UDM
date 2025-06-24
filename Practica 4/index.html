@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora en  formulario</title>
+    <style> 
+        body {
+            background-color: #202020;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+
+        form{
+            width: 400px;
+            height: 400px;
+            background-color: beige;
+            border-radius: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            
+        }
+
+        input{
+            border-radius: 15px;
+            border-style: solid;
+            border-color: #202020;
+        }
+
+        select{
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form id="formulario">
+    <h1>Calculadora de dos números</h1>
+
+    <label>Ingrese su primer número: </label><br>
+    <input type="number" name="num1" placeholder="Primer número" required><br><br>
+
+    <label>Ingrese su segundo número: </label><br>
+    <input type="number" name="num2" placeholder="Segundo número" required><br><br>
+
+    <select name="operaciones" required>
+        <option value="1">Elija una operación</option>
+        <option value="2">Suma</option>
+        <option value="3">Resta</option>
+        <option value="4">Multiplicación</option>
+        <option value="5">División</option>
+    </select><br><br>
+
+    <input type="submit" value="Calcular">
+</form>
+
+</body>
+</html>

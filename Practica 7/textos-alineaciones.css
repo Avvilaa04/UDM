@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    background-color: #c0afd2;
+    color: #fff;
+}
+
+#left {
+    text-align: left;
+}
+
+#center {
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+}
+
+#justify {
+    text-align: justify;
+}
+
+#texto-con-sangria{
+    text-indent: 4%;
+}
+
+#underline {
+    text-decoration: underline double;
+}
+
+#overline {
+    text-decoration: overline dashed;
+}
+
+#line-through {
+    text-decoration: line-through wavy red;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+#interlineado {
+    line-height: 2;
+}
+
+#interlineado2 {
+    line-height: 25%;
+}
+
+/*Propiedad text-shadow*/
+/*Se utiliza para agregar sombras al texto.
+  Se pueden especificar hasta 4 valores:
+  - Desplazamiento horizontal
+  - Desplazamiento vertical
+  - Desenfoque (opcional)
+  - Color (opcional)*/
+#sombra {
+    text-shadow: 20px 20px 6px #000;
+    font-size: 3rem;
+}
+
+#multiple {
+    text-shadow: 0 1px 0px #000, 
+                 1px 0 0px #fff, 
+                 0 2px 1px #f00, 
+                 2px 3px 2px #ff0,
+                 3px 2px 2px #0f0;
+}

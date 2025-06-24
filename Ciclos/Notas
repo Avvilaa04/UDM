@@ -1,0 +1,24 @@
+Ciclos For
+
+for(variable = valor_inicial; condicion, incremento)
+{
+    ...sentencias
+}
+
+
+
+Ciclo while
+
+while(condicion)
+{
+    ...sentencias;
+    incremento;
+}
+
+
+
+Ciclo do while
+{
+    ...sentencias;
+    incremento;
+} while(condicion);

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#verde, .azul{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 12px;
+}
+
+#verde {
+    background-color: green;
+    position: relative;
+    left: 200px;
+    right: 200px;
+}
+
+.azul {
+    background-color: blue;
+}

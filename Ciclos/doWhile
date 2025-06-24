@@ -1,0 +1,8 @@
+<?php
+    $canasta = 0;
+    // do while
+    do {
+        echo "$canasta,";
+        $canasta++;
+    }while ($canasta <= 10);
+?>
